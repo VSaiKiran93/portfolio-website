@@ -303,7 +303,7 @@ img {
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163. 163. 163);
+    border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
@@ -319,12 +319,13 @@ img {
     margin: auto 0;
 }
 
-.social-container {
+/*.social-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
 }
+*/
 
 /* EXPERIENCE SECTION */
 
@@ -373,6 +374,7 @@ article .icon {
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
+    max-width: auto;
 }
   
 .project-img {
