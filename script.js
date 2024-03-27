@@ -5,6 +5,7 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+/*
  window.addEventListener("resize", () => {
     if (window.innerWidth < 768) {
         document.getElementById("downArrow").dataset.arrow = "down";
@@ -12,3 +13,4 @@ function toggleMenu() {
         document.getElementById("downArrow").dataset.arrow = "";
     }
  });
+*/
