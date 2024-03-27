@@ -293,8 +293,25 @@ img {
 .arrow {
     width: 3rem;
     position: absolute;
-    right: -5rem;
+    right: -3rem;
     bottom: 2.5rem;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.arrow[data-arrow-down] {
+    transform: rotate(90deg) translateX(-50%);
+    left: 50%;
+    top: 100%;
+    margin-top: -1rem;
+}
+
+.arrow[data-arrow-right] {
+    transform: rotate(0deg);
+}
+
+.arrow[data-arrow-left] {
+    transform: rotate(180deg);
 }
 
 .details-container {
