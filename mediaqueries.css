@@ -47,6 +47,7 @@
     }
   }
 
+/*
   @media screen and (max-width: 600px) {
   html {
     font-size: 14px;
@@ -130,9 +131,9 @@
     height: auto;
     border-radius: 1rem;
   }
-}
+} */
 
- /*
+ 
   
   @media screen and (max-width: 600px) {
     #contact,
@@ -188,4 +189,4 @@
       text-align: justify;
     }
   }
-*/
+
